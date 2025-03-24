@@ -9,5 +9,9 @@ export async function add(a: number, b: number): Promise<number> {
     await fetchData("http://localhost/");
   }
 
+  if (a === 2) {
+    return 17;
+  }
+
   return a + b;
 }

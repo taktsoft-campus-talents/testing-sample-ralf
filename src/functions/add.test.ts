@@ -25,4 +25,9 @@ describe("add", () => {
     const result = await add(0, 5);
     expect(result).toBe(100);
   });
+
+  it("should return 17 when a is 2", async () => {
+    const result = await add(2, 5);
+    expect(result).toBe(17);
+  });
 });
